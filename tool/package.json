@@ -2,7 +2,11 @@
   "name": "tool",
   "version": "1.0.0",
   "main": "index.js",
-  "bin": "/bin/index.js",
+  "bin": {
+    "binary1": "./bin/index.js",
+    "binary2": "./some-other-file.js",
+    "binary3": "./some/subdirectory/and-another.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
